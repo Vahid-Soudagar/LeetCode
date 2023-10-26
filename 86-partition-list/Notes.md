@@ -1,1 +1,1 @@
-<h2>partition-list Notes</h2><hr>Brute for
+<h2>partition-list Notes</h2><hr>Brute force solved
