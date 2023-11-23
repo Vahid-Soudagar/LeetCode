@@ -1,17 +1,15 @@
 class Solution {
-    public int removeDuplicates(int[] nums) {
-        int count = 1;
-        // 2 
-        for (int i = 0;i < nums.length - 1;i++) {
-            // i = 4
-            if (nums[i+1] != nums[i]) {
-                // i + 1 = 1 
-                // i = 0
-                nums[count++] = nums[i+1];
-            }
-        } 
+    public int removeDuplicates(int[] nums) {   
+        int newIndex = 1; // Start with index 1 because the first element is already in place
 
-        // 0 1
-        return count;
-    }
+        for (int i = 0; i < nums.length - 1; i++) {
+
+            if (nums[i] < nums[i+1]) { // If the current element is less than the next element
+            
+                nums[newIndex] = nums[i+1]; // Move the next element to the new index
+                newIndex++; // Increment the new index
+            }
+        }
+        return newIndex; // Return the length of the new subarray
+	}
 }
