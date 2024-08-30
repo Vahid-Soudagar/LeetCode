@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Vahid-Soudagar/LeetCode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Vahid-Soudagar/LeetCode/tree/master/0283-move-zeroes) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Vahid-Soudagar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0485-max-consecutive-ones](https://github.com/Vahid-Soudagar/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [1293-three-consecutive-odds](https://github.com/Vahid-Soudagar/LeetCode/tree/master/1293-three-consecutive-odds) |
 | [1720-crawler-log-folder](https://github.com/Vahid-Soudagar/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/Vahid-Soudagar/LeetCode/tree/master/1803-average-waiting-time) |
